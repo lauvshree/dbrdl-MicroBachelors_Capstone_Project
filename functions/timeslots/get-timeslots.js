@@ -8,7 +8,12 @@
   *
   */
 
-const logger = require('pino')();
+//const logger = require('pino')();
+
+/*function main(params){
+	return "Hello world "+params;
+}*/
+
 function main(params) {
 
   // ideally the code would look this up in the database, but due to limited time, this function returns some hardcoded values at this time
@@ -69,6 +74,8 @@ function main(params) {
     return result;
   }
 }
+
+
 
 function getWeekend(result) {
   //Learner: add code to return the following available times for the weekend:
